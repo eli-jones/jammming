@@ -1,0 +1,59 @@
+/* playlist */
+
+.playlist {
+    width: 80%;
+    max-height: 33rem;
+    margin: 1.5rem auto 0 auto;
+    padding: 1rem;
+    border-radius: 15px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    scrollbar-color: var(--yorange) var(--gray);
+    background-color: var(--awhite);
+}
+
+.playlist input, button.save {
+    all: unset;
+    display: block;
+    margin: auto;
+    font-family: var(--body-font);
+    color: var(--dblue);
+}
+
+.playlist input {
+    background-color: var(--awhite);
+    padding-bottom: 1rem;
+    margin: 1.5rem auto;
+    width: 95%;
+    text-align: left;
+    border-bottom: 1px solid var(--gray);
+}
+
+.playlist input.plvalue {
+    color: var(--dorange);
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.playlist input.plvalue:focus {
+    color: var(--dblue);
+}
+
+.playlist button.save {
+    background-color: var(--yorange);
+    width: 7rem;
+    padding: 5px 10px;
+    border-radius: 15px;
+    text-align: center;
+    margin: 3rem auto 1.5rem auto;
+}
+
+.playlist button.save:hover {
+    background-color: var(--dorange);
+    transition: 0.15s;
+}
+
+.playlist button.save:active {
+    background-color: var(--gray);
+    transition: 0.05s;
+}

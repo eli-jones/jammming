@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Urbanist";
+    font-family: "Sixtyfour";
+}
+
+:root {
+    --header-font: 'Sixtyfour', 'urbanist', sans-serif;
+    --body-font: 'urbanist', sans-serif;
+    --dblue: #011526;
+    --awhite: #f2dcc2;
+    --gray: #bfae99;
+    --yorange: #f28b30;
+    --dorange: #f2522e;
+}

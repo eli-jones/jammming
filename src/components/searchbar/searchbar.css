@@ -1,0 +1,35 @@
+/* search bar */
+
+.searchbar {
+    text-align: center;
+}
+
+.searchbar input, button {
+    all: unset;
+    border-radius: 15px;
+    font-family: var(--body-font);
+    color: var(--dblue);
+    padding: 5px 10px;
+}
+
+.searchbar input {
+    background-color: var(--awhite);
+    margin-right: 5px;
+    width: 11rem;
+    text-align: left;
+}
+
+.searchbar button {
+    background-color: var(--yorange);
+    width: 4rem;
+}
+
+.searchbar button:hover {
+    background-color: var(--dorange);
+    transition: 0.15s;
+}
+
+.searchbar button:active {
+    background-color: var(--gray);
+    transition: 0.05s;
+}

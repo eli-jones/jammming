@@ -1,0 +1,47 @@
+/* track */
+
+.track {
+    width: 95%;
+    margin: auto;
+    text-align: left;
+    border-bottom: 1px solid var(--gray);
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+h4, p {
+    font-family: var(--body-font);
+}
+
+h4 {
+    color: var(--dorange);
+    font-size: 1rem;
+    font-weight: 800;
+    margin-top: 0.25rem;
+}
+
+p {
+    font-size: 0.85rem;
+    margin: -1.25rem 0 1rem 0;
+    color: var(--dblue);
+}
+
+.track button {
+    color: var(--yorange);
+    font-size: 1.5rem;
+}
+
+.track button:hover {
+    color: var(--dorange);
+    transition: 0.1s;
+}
+
+.track button:active {
+    color: var(--gray);
+    transition: 0.05s;
+}
+
+.track-action {
+    text-align: center;
+}

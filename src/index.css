@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@font-face {
+    font-family: "Urbanist";
+    font-family: "Sixtyfour";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --header-font: 'Sixtyfour', 'urbanist', sans-serif;
+    --body-font: 'urbanist', sans-serif;
+    --dblue: #011526;
+    --awhite: #f2dcc2;
+    --gray: #bfae99;
+    --yorange: #f28b30;
+    --dorange: #f2522e;
 }
+
+body {
+    background-color: var(--dblue);
+}
+
+header {
+    margin: 3rem;
+}
+
+h1 {
+    font-family: var(--header-font);
+    color: var(--dorange);
+    font-size: 2.5rem;
+    text-align: center;
+    letter-spacing: -5px;
+    animation: fade 0.5s ease-in-out;
+}
+
+
+
+/* logo styling */
+
+.highlight span {
+    color: var(--yorange);
+    letter-spacing: 2px;
+    display: inline-block;
+    animation: waveText 1s ease-in-out;
+    margin: 0 -18px;
+}
+
+.highlight span:first-child {
+    margin-left: -32px;
+}
+
+.highlight span:last-child {
+    margin-right: -40px;
+}
+
+.highlight.anim {
+  span:nth-of-type(1){ animation-delay: 0.5s; }
+  span:nth-of-type(2){ animation-delay: 0.7s; }
+  span:nth-of-type(3){ animation-delay: 0.9s; }
+}
+
+
+/* animations */
+
+@keyframes waveText {
+    0% {
+       transform: translateY(0em); 
+    }
+    40% {
+       transform: translateY(0.25em);
+    }
+    75% {
+        transform: translateY(-0.25em);
+    }
+    100% {
+       transform: translateY(0em);
+    }
+};
+
+@keyframes fade {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+};
