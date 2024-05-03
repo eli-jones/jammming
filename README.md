@@ -12,7 +12,7 @@ Thanks for checking out this project. This is part of Codecademy's Front End Web
 
 ### Links
 
-- Live Site URL: [Live](https://eli-jones.github.io/jammming/index.html)
+- Live Site URL: [Live](https://eli-jones-jammming.netlify.app/)
 
 ## My process
 
