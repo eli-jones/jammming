@@ -8,7 +8,7 @@ Thanks for checking out this project. This is part of Codecademy's Front End Web
 
 ### Screenshot
 
-![](./jammming)
+![](./jammming.png)
 
 ### Links
 
